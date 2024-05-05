@@ -1,6 +1,7 @@
 package net.ale.tutorialmod.item;
 
 import net.ale.tutorialmod.TutorialMod;
+import net.ale.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,9 +19,9 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GRAPHENE.get());
                         output.accept(ModItems.GRAPHENE_DUST.get());
+                        output.accept(ModBlocks.GRAPHENE_BLOCK.get());
                     })
                     .build());
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
