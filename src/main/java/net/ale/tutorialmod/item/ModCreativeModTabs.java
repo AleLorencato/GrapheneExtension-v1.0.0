@@ -20,6 +20,10 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.GRAPHENE.get());
                         output.accept(ModItems.GRAPHENE_DUST.get());
                         output.accept(ModBlocks.GRAPHENE_BLOCK.get());
+                        output.accept(ModBlocks.GRAPHENE_ORE.get());
+                        output.accept(ModBlocks.NETHER_GRAPHENE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_GRAPHENE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_GRAPHENE_ORE.get());
                     })
                     .build());
 

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "tutorialmod:graphene_block",
+    "tutorialmod:graphene_ore",
+    "tutorialmod:deepslate_graphene_ore",
+    "tutorialmod:nether_graphene_ore",
+    "tutorialmod:end_stone_graphene_ore"
+  ]
+}

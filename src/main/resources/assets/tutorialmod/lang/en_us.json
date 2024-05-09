@@ -2,5 +2,9 @@
   "item.tutorialmod.graphene": "Graphene",
   "item.tutorialmod.graphene_dust": "Graphene Dust",
   "block.tutorialmod.graphene_block": "Graphene Block",
+  "block.tutorialmod.graphene_ore": "Graphene Ore",
+  "block.tutorialmod.deepslate_graphene_ore": "Deepslate Graphene Ore",
+  "block.tutorialmod.nether_graphene_ore": "Nether Graphene Ore",
+  "block.tutorialmod.end_stone_graphene_ore": "Endstone Graphene Ore",
   "creativetab.firstmod_tab": "Advanced Ores"
 }
