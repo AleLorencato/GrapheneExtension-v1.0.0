@@ -5,7 +5,9 @@ import net.ale.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -24,6 +26,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.NETHER_GRAPHENE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_GRAPHENE_ORE.get());
                         output.accept(ModBlocks.END_STONE_GRAPHENE_ORE.get());
+                        output.accept(ModItems.GRAPHENE_SWORD.get());
+                        output.accept(ModItems.GRAPHENE_PICKAXE.get());
+                        output.accept(ModItems.GRAPHENE_AXE.get());
+                        output.accept(ModItems.GRAPHENE_SHOVEL.get());
+                        output.accept(ModItems.GRAPHENE_HOE.get());
                     })
                     .build());
 

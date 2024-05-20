@@ -2,6 +2,7 @@ package net.ale.tutorialmod.datagen;
 
 import net.ale.tutorialmod.TutorialMod;
 import net.ale.tutorialmod.block.ModBlocks;
+import net.ale.tutorialmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -39,6 +40,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         ;
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_GRAPHENE_ORE.get());
+
+/*
+        this.tag(ModTags.Blocks.NEEDS_GRAPHENE_TOOL)
+                .add(ModBlocks.END_STONE_GRAPHENE_ORE.get());
+*/
+
     }
 
 

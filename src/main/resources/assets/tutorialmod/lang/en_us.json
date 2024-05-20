@@ -1,6 +1,11 @@
 {
   "item.tutorialmod.graphene": "Graphene",
   "item.tutorialmod.graphene_dust": "Graphene Dust",
+  "item.tutorialmod.graphene_sword": "Graphene Sword",
+  "item.tutorialmod.graphene_pickaxe": "Graphene Pickaxe",
+  "item.tutorialmod.graphene_axe": "Graphene Axe",
+  "item.tutorialmod.graphene_shovel": "Graphene Shovel",
+  "item.tutorialmod.graphene_hoe": "Graphene Hoe",
   "block.tutorialmod.graphene_block": "Graphene Block",
   "block.tutorialmod.graphene_ore": "Graphene Ore",
   "block.tutorialmod.deepslate_graphene_ore": "Deepslate Graphene Ore",

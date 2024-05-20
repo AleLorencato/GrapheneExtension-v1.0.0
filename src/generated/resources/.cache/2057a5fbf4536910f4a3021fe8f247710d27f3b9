@@ -1,3 +1,8 @@
-// 1.20.1	2024-05-16T14:06:08.0802189	Item Models: tutorialmod
+// 1.20.1	2024-05-20T15:55:14.5281625	Item Models: tutorialmod
 aac9b69949e891d143a560d8abaad6509bce4c5d assets/tutorialmod/models/item/graphene.json
+6529037aaf9ae4d0a0c2b32ae5390e04ab09ff66 assets/tutorialmod/models/item/graphene_axe.json
 30046abd5cae88b82311cb05eaf2e5ea94392950 assets/tutorialmod/models/item/graphene_dust.json
+34fd3fadb7bd0edf31d1ef1678776be395c63f2c assets/tutorialmod/models/item/graphene_hoe.json
+cba2979550a003c642e0ae38c3a58ef5605332b2 assets/tutorialmod/models/item/graphene_pickaxe.json
+d9817f864133e8c9d25c647ad264465c2d367249 assets/tutorialmod/models/item/graphene_shovel.json
+59f657b71f43d32dadf861ff6b6db67daa27875e assets/tutorialmod/models/item/graphene_sword.json
