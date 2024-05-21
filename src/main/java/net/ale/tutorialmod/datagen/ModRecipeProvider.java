@@ -5,6 +5,8 @@ import net.ale.tutorialmod.block.ModBlocks;
 import net.ale.tutorialmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -42,6 +44,58 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GRAPHENE.get(), 9)
                 .requires(ModBlocks.GRAPHENE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.GRAPHENE_BLOCK.get()), has(ModBlocks.GRAPHENE_BLOCK.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.GRAPHENE_PICKAXE.get()
+                )
+                .pattern("SSS")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.GRAPHENE.get())
+                .define('X', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.GRAPHENE_AXE.get()
+                )
+                .pattern(" SS")
+                .pattern(" XS")
+                .pattern(" X ")
+                .define('S', ModItems.GRAPHENE.get())
+                .define('X', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.GRAPHENE_SHOVEL.get()
+                )
+                .pattern(" S ")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.GRAPHENE.get())
+                .define('X', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.GRAPHENE_HOE.get()
+                )
+                .pattern(" SS")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.GRAPHENE.get())
+                .define('X', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GRAPHENE_SWORD.get()
+                )
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" X ")
+                .define('S', ModItems.GRAPHENE.get())
+                .define('X', Items.STICK)
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
                 .save(pWriter);
     }
 

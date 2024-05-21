@@ -16,7 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> GRAPHENE_DUST = ITEMS.register("graphene_dust", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword",
-            () -> new SwordItem(ModToolTiers.GRAPHENE, 4, -1, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.GRAPHENE, 4, -2, new Item.Properties()));
     public static final RegistryObject<Item> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe",
             () -> new PickaxeItem(ModToolTiers.GRAPHENE, 2, -2, new Item.Properties()));
     public static final RegistryObject<Item> GRAPHENE_AXE = ITEMS.register("graphene_axe",
