@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "tutorialmod:graphene"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "item": "tutorialmod:graphene_shovel"
+  },
+  "show_notification": true
+}
