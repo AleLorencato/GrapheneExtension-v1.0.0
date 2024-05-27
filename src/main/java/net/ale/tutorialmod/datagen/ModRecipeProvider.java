@@ -97,7 +97,50 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('X', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
                 .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GRAPHENE_HELMET.get()
+                )
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', ModItems.GRAPHENE.get())
+
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GRAPHENE_CHESTPLATE.get()
+                )
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.GRAPHENE.get())
+
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GRAPHENE_LEGGINGS.get()
+                )
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', ModItems.GRAPHENE.get())
+
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.GRAPHENE_BOOTS.get()
+                )
+                .pattern("   ")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', ModItems.GRAPHENE.get())
+
+                .unlockedBy(getHasName(ModItems.GRAPHENE.get()), has(ModItems.GRAPHENE.get()))
+                .save(pWriter);
     }
+
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMELTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTIme, pGroup, "_from_smelting");

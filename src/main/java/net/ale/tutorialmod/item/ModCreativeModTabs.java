@@ -31,6 +31,10 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.GRAPHENE_AXE.get());
                         output.accept(ModItems.GRAPHENE_SHOVEL.get());
                         output.accept(ModItems.GRAPHENE_HOE.get());
+                        output.accept(ModItems.GRAPHENE_HELMET.get());
+                        output.accept(ModItems.GRAPHENE_CHESTPLATE.get());
+                        output.accept(ModItems.GRAPHENE_LEGGINGS.get());
+                        output.accept(ModItems.GRAPHENE_BOOTS.get());
                     })
                     .build());
 

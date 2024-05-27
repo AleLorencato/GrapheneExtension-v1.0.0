@@ -26,6 +26,15 @@ public class ModItems {
     public static final RegistryObject<Item> GRAPHENE_HOE = ITEMS.register("graphene_hoe",
             () -> new HoeItem(ModToolTiers.GRAPHENE, 1, -2, new Item.Properties()));
 
+    public static final RegistryObject<Item> GRAPHENE_HELMET = ITEMS.register("graphene_helmet",
+            () -> new ArmorItem(ModArmorMaterials.GRAPHENE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> GRAPHENE_CHESTPLATE = ITEMS.register("graphene_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.GRAPHENE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> GRAPHENE_LEGGINGS = ITEMS.register("graphene_leggings",
+            () -> new ArmorItem(ModArmorMaterials.GRAPHENE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> GRAPHENE_BOOTS = ITEMS.register("graphene_boots",
+            () -> new ArmorItem(ModArmorMaterials.GRAPHENE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
