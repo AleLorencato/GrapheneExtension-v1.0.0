@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "grapheneextension:graphene"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " SS",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "item": "grapheneextension:graphene_hoe"
+  },
+  "show_notification": true
+}
