@@ -11,4 +11,4 @@ Place the downloaded mod file into the mods folder.
 Launch Minecraft: Start Minecraft with the Forge profile and the mod should be loaded.
 
 
-Thank you for using the Graphene Extension Mod! If you encounter any issues or have suggestions, please open an issue on our GitHub page.
+Thank you for using the Graphene Extension Mod! If you encounter any issues or have suggestions, please open an issue on my GitHub page.
